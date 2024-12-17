@@ -1,15 +1,15 @@
 "use client";
 
-import avatar from "../../../public/avatar.png"
-import deploy from "../../../public/deploy.png"
-import calender from "../../../public/calender.png"
-import background from "../../../public/background.png"
-import bar from "../../../public/bar.png"
-import breadcrumbs from "../../../public/breadcrumbs.png"
-import stats from "../../../public/stats.png"
-import styling from "../../../public/styling.png"
-import graph from "../../../public/graph.png"
-import mode from "../../../public/mode.png"
+import avatar from "../../public/avatar.png"
+import deploy from "../../public/deploy.png"
+import calender from "../../public/calender.png"
+import background from "../../public/background.png"
+import bar from "../../public/bar.png"
+import breadcrumbs from "../../public/breadcrumbs.png"
+import stats from "../../public/stats.png"
+import styling from "../../public/styling.png"
+import graph from "../../public/graph.png"
+import mode from "../../public/mode.png"
 
 import { useEffect, useState } from "react";
 import {

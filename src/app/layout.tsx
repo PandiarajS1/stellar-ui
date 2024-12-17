@@ -1,12 +1,9 @@
-import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { SITE_CONFIG } from "@/config";
 
-export const metadata: Metadata = {
-  title: "Stellar UI",
-  description: "New component UI Library",
-};
+export const metadata = SITE_CONFIG;
 
 export default function RootLayout({
   children,
